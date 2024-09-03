@@ -1,0 +1,634 @@
+INFO:root:experiment_parameters
+INFO:root:time_string
+INFO:root:06142024_142402
+INFO:root:data_dir_path
+INFO:root:data/ibm_montecarlo_06142024_142402/
+INFO:root:backend_name
+INFO:root:ibm_montecarlo
+INFO:root:coupling_map
+INFO:root:[[0, 1], [0, 15], [1, 0], [1, 2], [2, 1], [2, 3], [3, 2], [3, 4], [4, 3], [4, 5], [4, 16], [5, 4], [5, 6], [6, 5], [6, 7], [7, 6], [7, 8], [8, 7], [8, 9], [8, 17], [9, 8], [9, 10], [10, 9], [10, 11], [11, 10], [11, 12], [12, 11], [12, 13], [12, 18], [13, 12], [13, 14], [14, 13], [15, 0], [15, 19], [16, 4], [16, 23], [17, 8], [17, 27], [18, 12], [18, 31], [19, 15], [19, 20], [20, 19], [20, 21], [21, 20], [21, 22], [21, 34], [22, 21], [22, 23], [23, 16], [23, 22], [23, 24], [24, 23], [24, 25], [25, 24], [25, 26], [25, 35], [26, 25], [26, 27], [27, 17], [27, 26], [27, 28], [28, 27], [28, 29], [29, 28], [29, 30], [29, 36], [30, 29], [30, 31], [31, 18], [31, 30], [31, 32], [32, 31], [32, 33], [33, 32], [33, 37], [34, 21], [34, 40], [35, 25], [35, 44], [36, 29], [36, 48], [37, 33], [37, 52], [38, 39], [38, 53], [39, 38], [39, 40], [40, 34], [40, 39], [40, 41], [41, 40], [41, 42], [42, 41], [42, 43], [42, 54], [43, 42], [43, 44], [44, 35], [44, 43], [44, 45], [45, 44], [45, 46], [46, 45], [46, 47], [46, 55], [47, 46], [47, 48], [48, 36], [48, 47], [48, 49], [49, 48], [49, 50], [50, 49], [50, 51], [50, 56], [51, 50], [51, 52], [52, 37], [52, 51], [53, 38], [53, 57], [54, 42], [54, 61], [55, 46], [55, 65], [56, 50], [56, 69], [57, 53], [57, 58], [58, 57], [58, 59], [59, 58], [59, 60], [59, 72], [60, 59], [60, 61], [61, 54], [61, 60], [61, 62], [62, 61], [62, 63], [63, 62], [63, 64], [63, 73], [64, 63], [64, 65], [65, 55], [65, 64], [65, 66], [66, 65], [66, 67], [67, 66], [67, 68], [67, 74], [68, 67], [68, 69], [69, 56], [69, 68], [69, 70], [70, 69], [70, 71], [71, 70], [71, 75], [72, 59], [72, 78], [73, 63], [73, 82], [74, 67], [74, 86], [75, 71], [75, 90], [76, 77], [76, 91], [77, 76], [77, 78], [78, 72], [78, 77], [78, 79], [79, 78], [79, 80], [80, 79], [80, 81], [80, 92], [81, 80], [81, 82], [82, 73], [82, 81], [82, 83], [83, 82], [83, 84], [84, 83], [84, 85], [84, 93], [85, 84], [85, 86], [86, 74], [86, 85], [86, 87], [87, 86], [87, 88], [88, 87], [88, 89], [88, 94], [89, 88], [89, 90], [90, 75], [90, 89], [91, 76], [91, 95], [92, 80], [92, 99], [93, 84], [93, 103], [94, 88], [94, 107], [95, 91], [95, 96], [96, 95], [96, 97], [97, 96], [97, 98], [97, 110], [98, 97], [98, 99], [99, 92], [99, 98], [99, 100], [100, 99], [100, 101], [101, 100], [101, 102], [101, 111], [102, 101], [102, 103], [103, 93], [103, 102], [103, 104], [104, 103], [104, 105], [105, 104], [105, 106], [105, 112], [106, 105], [106, 107], [107, 94], [107, 106], [107, 108], [108, 107], [108, 109], [109, 108], [109, 113], [110, 97], [110, 116], [111, 101], [111, 120], [112, 105], [112, 124], [113, 109], [113, 128], [114, 115], [114, 129], [115, 114], [115, 116], [116, 110], [116, 115], [116, 117], [117, 116], [117, 118], [118, 117], [118, 119], [118, 130], [119, 118], [119, 120], [120, 111], [120, 119], [120, 121], [121, 120], [121, 122], [122, 121], [122, 123], [122, 131], [123, 122], [123, 124], [124, 112], [124, 123], [124, 125], [125, 124], [125, 126], [126, 125], [126, 127], [126, 132], [127, 126], [127, 128], [128, 113], [128, 127], [129, 114], [130, 118], [131, 122], [132, 126]]
+INFO:root:good_qubits
+INFO:root:[63, 64, 65, 66, 67, 73, 74, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 92, 93, 94, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 110, 111, 112, 116, 117, 118, 119, 120, 121, 122, 123, 124]
+INFO:root:j2
+INFO:root:1
+INFO:root:j3
+INFO:root:1
+INFO:root:n_swaps
+INFO:root:0
+INFO:root:n_T_step
+INFO:root:4
+INFO:root:is_depth_optimized
+INFO:root:True
+INFO:root:minimize_unique_layers
+INFO:root:True
+INFO:root:swap_back
+INFO:root:True
+INFO:root:single_qubit
+INFO:root:False
+INFO:root:D
+INFO:root:[3]
+INFO:root:continue_exp_idx
+INFO:root:0
+INFO:root:barriers
+INFO:root:True
+INFO:root:reverse_odd_trotter_steps
+INFO:root:False
+INFO:root:single_particle
+INFO:root:False
+INFO:root:fixed_control
+INFO:root:9
+INFO:root:k_particle
+INFO:root:5
+INFO:root:excitations
+INFO:root:[10, 27, 14, 3, 38]
+INFO:root:twirls
+INFO:root:100
+INFO:root:shots
+INFO:root:500
+INFO:root:trex_twirls
+INFO:root:50
+INFO:root:trex_shots
+INFO:root:500
+INFO:root:apply_DD
+INFO:root:True
+INFO:root:dd_sequence
+INFO:root:[]
+INFO:root:scheduling_method
+INFO:root:alap
+INFO:root:learning_samples
+INFO:root:25
+INFO:root:learning_shots
+INFO:root:100
+INFO:root:learning_batch_size
+INFO:root:100
+INFO:root:cycle_depths
+INFO:root:[0, 4, 24, 48]
+INFO:root:learning_experiment_options_dict
+INFO:root:{'layer_pair_depths': [0, 4, 24, 48], 'learning_qubits': [63, 64, 73, 65, 66, 67, 74, 82, 86, 79, 80, 81, 92, 83, 84, 85, 93, 87, 88, 94, 99, 103, 107, 97, 98, 110, 100, 101, 102, 111, 104, 105, 106, 112, 116, 120, 124, 117, 118, 119, 121, 122, 123], 'twirled_qubits': [63, 64, 73, 65, 66, 67, 74, 82, 86, 79, 80, 81, 92, 83, 84, 85, 93, 87, 88, 94, 99, 103, 107, 97, 98, 110, 100, 101, 102, 111, 104, 105, 106, 112, 116, 120, 124, 117, 118, 119, 121, 122, 123], 'randomize_measurement': True, 'randomize_preparation': True, 'max_circuits': 100, 'max_concurrent_jobs': 10, 'interleave_samples': True}
+INFO:root:trex_experiment_options_dict
+INFO:root:{'num_samples': 50}
+INFO:root:noise_scales
+INFO:root:[1, 1.3, 1.6]
+INFO:root:max_job_size
+INFO:root:100
+INFO:root:max_concurrent_jobs
+INFO:root:10
+INFO:root:H_labels
+INFO:root:['IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIXIX', 'IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIXIXI', 'IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIXXIIIII', 'IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIXIXIIIIIIIIII', 'IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIXIIIXIIIIIII', 'IIIIIIIIIIIIIIIIIIIIIIIIIIXIXIIIIIIIIIIIIII', 'IIIIIIIIIIIIIIIIIIIIIIIXXIIIIIIIIIIIIIIIIII', 'IIIIIIIIIIIIIIIIIIIIIIIIIIIXIIIIIIXIIIIIIII', 'IIIIIIIIIIIIIIIIIXIXIIIIIIIIIIIIIIIIIIIIIII', 'IIIXIIIXIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII', 'IIIIIIIIIIIIIIIIIIXIIIXIIIIIIIIIIIIIIIIIIII', 'IIIIIIIIIIIIIXIXIIIIIIIIIIIIIIIIIIIIIIIIIII', 'XIIIIIXIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII', 'IIIIIIIIIIIIIIXIIIIIIXIIIIIIIIIIIIIIIIIIIII', 'IIIIIIIIIXIXIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII', 'IIIIIIIIIIXIIIIIIIIIXIIIIIIIIIIIIIIIIIIIIII', 'IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIXIIIIXII', 'IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIXXIIII', 'IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIXIXIIIIII', 'IIIIIIIIIIIIIIIIIIIIIIXIIIIIIIXIIIIIIIIIIII', 'IIIIIIIIIIIIIIIIIIIIIIIIIIIIXXIIIIIIIIIIIII', 'IIIIIIIIIIIIIIIIIIIIIXIIIIXIIIIIIIIIIIIIIII', 'IIIIIIIIIIIIIIIIIIIIXIIXIIIIIIIIIIIIIIIIIII', 'IIIIIIIIIIIIIIIIIIIIIIIIXXIIIIIIIIIIIIIIIII', 'IIIIIIIIXIIIIIIIIXIIIIIIIIIIIIIIIIIIIIIIIII', 'IIIIXXIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII', 'IIIIIIIIIIIIIIIXXIIIIIIIIIIIIIIIIIIIIIIIIII', 'IIIIIIIXIIIIIXIIIIIIIIIIIIIIIIIIIIIIIIIIIII', 'IXXIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII', 'IIIIIIIIIIIXXIIIIIIIIIIIIIIIIIIIIIIIIIIIIII', 'IIIIIIXIIXIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII', 'IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIXXIII', 'IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIXX', 'IIIIIIIIIIIIIIIIIIIIIIIIIIIIIXIIIIIXIIIIIII', 'IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIXXIIIIIIIIII', 'IIIIIIIIIIIIIIIIIIIIIIIIIXIIIIIIIIXIIIIIIII', 'IIIIIIIIIIIIIIIIIIIIIIIIIIIXXIIIIIIIIIIIIII', 'IIIIIXIIXIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII', 'IIIXXIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII', 'IIIIIIIIIIIIIIIIXIIIIIXIIIIIIIIIIIIIIIIIIII', 'IIIIIIIIIIIIIIIIIIXXIIIIIIIIIIIIIIIIIIIIIII', 'IIXIIIIXIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII', 'XXIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII', 'IIIIIIIIIIIIXIIIIIIIIXIIIIIIIIIIIIIIIIIIIII', 'IIIIIIIIIIIIIIXXIIIIIIIIIIIIIIIIIIIIIIIIIII', 'IIIIIIIIIIXXIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII', 'IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIYIY', 'IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIYIYI', 'IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIYYIIIII', 'IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIYIYIIIIIIIIII', 'IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIYIIIYIIIIIII', 'IIIIIIIIIIIIIIIIIIIIIIIIIIYIYIIIIIIIIIIIIII', 'IIIIIIIIIIIIIIIIIIIIIIIYYIIIIIIIIIIIIIIIIII', 'IIIIIIIIIIIIIIIIIIIIIIIIIIIYIIIIIIYIIIIIIII', 'IIIIIIIIIIIIIIIIIYIYIIIIIIIIIIIIIIIIIIIIIII', 'IIIYIIIYIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII', 'IIIIIIIIIIIIIIIIIIYIIIYIIIIIIIIIIIIIIIIIIII', 'IIIIIIIIIIIIIYIYIIIIIIIIIIIIIIIIIIIIIIIIIII', 'YIIIIIYIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII', 'IIIIIIIIIIIIIIYIIIIIIYIIIIIIIIIIIIIIIIIIIII', 'IIIIIIIIIYIYIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII', 'IIIIIIIIIIYIIIIIIIIIYIIIIIIIIIIIIIIIIIIIIII', 'IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIYIIIIYII', 'IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIYYIIII', 'IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIYIYIIIIII', 'IIIIIIIIIIIIIIIIIIIIIIYIIIIIIIYIIIIIIIIIIII', 'IIIIIIIIIIIIIIIIIIIIIIIIIIIIYYIIIIIIIIIIIII', 'IIIIIIIIIIIIIIIIIIIIIYIIIIYIIIIIIIIIIIIIIII', 'IIIIIIIIIIIIIIIIIIIIYIIYIIIIIIIIIIIIIIIIIII', 'IIIIIIIIIIIIIIIIIIIIIIIIYYIIIIIIIIIIIIIIIII', 'IIIIIIIIYIIIIIIIIYIIIIIIIIIIIIIIIIIIIIIIIII', 'IIIIYYIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII', 'IIIIIIIIIIIIIIIYYIIIIIIIIIIIIIIIIIIIIIIIIII', 'IIIIIIIYIIIIIYIIIIIIIIIIIIIIIIIIIIIIIIIIIII', 'IYYIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII', 'IIIIIIIIIIIYYIIIIIIIIIIIIIIIIIIIIIIIIIIIIII', 'IIIIIIYIIYIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII', 'IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIYYIII', 'IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIYY', 'IIIIIIIIIIIIIIIIIIIIIIIIIIIIIYIIIIIYIIIIIII', 'IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIYYIIIIIIIIII', 'IIIIIIIIIIIIIIIIIIIIIIIIIYIIIIIIIIYIIIIIIII', 'IIIIIIIIIIIIIIIIIIIIIIIIIIIYYIIIIIIIIIIIIII', 'IIIIIYIIYIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII', 'IIIYYIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII', 'IIIIIIIIIIIIIIIIYIIIIIYIIIIIIIIIIIIIIIIIIII', 'IIIIIIIIIIIIIIIIIIYYIIIIIIIIIIIIIIIIIIIIIII', 'IIYIIIIYIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII', 'YYIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII', 'IIIIIIIIIIIIYIIIIIIIIYIIIIIIIIIIIIIIIIIIIII', 'IIIIIIIIIIIIIIYYIIIIIIIIIIIIIIIIIIIIIIIIIII', 'IIIIIIIIIIYYIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII', 'IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIZIZ', 'IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIZIZI', 'IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIZZIIIII', 'IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIZIZIIIIIIIIII', 'IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIZIIIZIIIIIII', 'IIIIIIIIIIIIIIIIIIIIIIIIIIZIZIIIIIIIIIIIIII', 'IIIIIIIIIIIIIIIIIIIIIIIZZIIIIIIIIIIIIIIIIII', 'IIIIIIIIIIIIIIIIIIIIIIIIIIIZIIIIIIZIIIIIIII', 'IIIIIIIIIIIIIIIIIZIZIIIIIIIIIIIIIIIIIIIIIII', 'IIIZIIIZIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII', 'IIIIIIIIIIIIIIIIIIZIIIZIIIIIIIIIIIIIIIIIIII', 'IIIIIIIIIIIIIZIZIIIIIIIIIIIIIIIIIIIIIIIIIII', 'ZIIIIIZIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII', 'IIIIIIIIIIIIIIZIIIIIIZIIIIIIIIIIIIIIIIIIIII', 'IIIIIIIIIZIZIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII', 'IIIIIIIIIIZIIIIIIIIIZIIIIIIIIIIIIIIIIIIIIII', 'IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIZIIIIZII', 'IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIZZIIII', 'IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIZIZIIIIII', 'IIIIIIIIIIIIIIIIIIIIIIZIIIIIIIZIIIIIIIIIIII', 'IIIIIIIIIIIIIIIIIIIIIIIIIIIIZZIIIIIIIIIIIII', 'IIIIIIIIIIIIIIIIIIIIIZIIIIZIIIIIIIIIIIIIIII', 'IIIIIIIIIIIIIIIIIIIIZIIZIIIIIIIIIIIIIIIIIII', 'IIIIIIIIIIIIIIIIIIIIIIIIZZIIIIIIIIIIIIIIIII', 'IIIIIIIIZIIIIIIIIZIIIIIIIIIIIIIIIIIIIIIIIII', 'IIIIZZIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII', 'IIIIIIIIIIIIIIIZZIIIIIIIIIIIIIIIIIIIIIIIIII', 'IIIIIIIZIIIIIZIIIIIIIIIIIIIIIIIIIIIIIIIIIII', 'IZZIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII', 'IIIIIIIIIIIZZIIIIIIIIIIIIIIIIIIIIIIIIIIIIII', 'IIIIIIZIIZIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII', 'IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIZZIII', 'IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIZZ', 'IIIIIIIIIIIIIIIIIIIIIIIIIIIIIZIIIIIZIIIIIII', 'IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIZZIIIIIIIIII', 'IIIIIIIIIIIIIIIIIIIIIIIIIZIIIIIIIIZIIIIIIII', 'IIIIIIIIIIIIIIIIIIIIIIIIIIIZZIIIIIIIIIIIIII', 'IIIIIZIIZIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII', 'IIIZZIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII', 'IIIIIIIIIIIIIIIIZIIIIIZIIIIIIIIIIIIIIIIIIII', 'IIIIIIIIIIIIIIIIIIZZIIIIIIIIIIIIIIIIIIIIIII', 'IIZIIIIZIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII', 'ZZIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII', 'IIIIIIIIIIIIZIIIIIIIIZIIIIIIIIIIIIIIIIIIIII', 'IIIIIIIIIIIIIIZZIIIIIIIIIIIIIIIIIIIIIIIIIII', 'IIIIIIIIIIZZIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII']
+INFO:root:H_coeffs
+INFO:root:[(1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j)]
+INFO:root:interaction_list_all
+INFO:root:[[(0, 2), (3, 1), (5, 6), (10, 12), (7, 11), (14, 16), (19, 18), (8, 15), (23, 25), (39, 35), (20, 24), (27, 29), (42, 36), (21, 28), (31, 33), (22, 32)], [(2, 7), (5, 4), (6, 8), (10, 9), (12, 20), (14, 13), (16, 21), (22, 19), (18, 17), (25, 34), (37, 38), (27, 26), (29, 35), (40, 41), (31, 30), (33, 36)], [(4, 3), (1, 0), (13, 7), (11, 10), (17, 8), (15, 14), (34, 37), (38, 39), (26, 20), (24, 23), (35, 40), (41, 42), (30, 21), (28, 27), (32, 31)]]
+INFO:root:experiment_parameters
+INFO:root:time_string
+INFO:root:06142024_142402
+INFO:root:data_dir_path
+INFO:root:data/ibm_montecarlo_06142024_142402/
+INFO:root:backend_name
+INFO:root:ibm_montecarlo
+INFO:root:coupling_map
+INFO:root:[[0, 1], [0, 15], [1, 0], [1, 2], [2, 1], [2, 3], [3, 2], [3, 4], [4, 3], [4, 5], [4, 16], [5, 4], [5, 6], [6, 5], [6, 7], [7, 6], [7, 8], [8, 7], [8, 9], [8, 17], [9, 8], [9, 10], [10, 9], [10, 11], [11, 10], [11, 12], [12, 11], [12, 13], [12, 18], [13, 12], [13, 14], [14, 13], [15, 0], [15, 19], [16, 4], [16, 23], [17, 8], [17, 27], [18, 12], [18, 31], [19, 15], [19, 20], [20, 19], [20, 21], [21, 20], [21, 22], [21, 34], [22, 21], [22, 23], [23, 16], [23, 22], [23, 24], [24, 23], [24, 25], [25, 24], [25, 26], [25, 35], [26, 25], [26, 27], [27, 17], [27, 26], [27, 28], [28, 27], [28, 29], [29, 28], [29, 30], [29, 36], [30, 29], [30, 31], [31, 18], [31, 30], [31, 32], [32, 31], [32, 33], [33, 32], [33, 37], [34, 21], [34, 40], [35, 25], [35, 44], [36, 29], [36, 48], [37, 33], [37, 52], [38, 39], [38, 53], [39, 38], [39, 40], [40, 34], [40, 39], [40, 41], [41, 40], [41, 42], [42, 41], [42, 43], [42, 54], [43, 42], [43, 44], [44, 35], [44, 43], [44, 45], [45, 44], [45, 46], [46, 45], [46, 47], [46, 55], [47, 46], [47, 48], [48, 36], [48, 47], [48, 49], [49, 48], [49, 50], [50, 49], [50, 51], [50, 56], [51, 50], [51, 52], [52, 37], [52, 51], [53, 38], [53, 57], [54, 42], [54, 61], [55, 46], [55, 65], [56, 50], [56, 69], [57, 53], [57, 58], [58, 57], [58, 59], [59, 58], [59, 60], [59, 72], [60, 59], [60, 61], [61, 54], [61, 60], [61, 62], [62, 61], [62, 63], [63, 62], [63, 64], [63, 73], [64, 63], [64, 65], [65, 55], [65, 64], [65, 66], [66, 65], [66, 67], [67, 66], [67, 68], [67, 74], [68, 67], [68, 69], [69, 56], [69, 68], [69, 70], [70, 69], [70, 71], [71, 70], [71, 75], [72, 59], [72, 78], [73, 63], [73, 82], [74, 67], [74, 86], [75, 71], [75, 90], [76, 77], [76, 91], [77, 76], [77, 78], [78, 72], [78, 77], [78, 79], [79, 78], [79, 80], [80, 79], [80, 81], [80, 92], [81, 80], [81, 82], [82, 73], [82, 81], [82, 83], [83, 82], [83, 84], [84, 83], [84, 85], [84, 93], [85, 84], [85, 86], [86, 74], [86, 85], [86, 87], [87, 86], [87, 88], [88, 87], [88, 89], [88, 94], [89, 88], [89, 90], [90, 75], [90, 89], [91, 76], [91, 95], [92, 80], [92, 99], [93, 84], [93, 103], [94, 88], [94, 107], [95, 91], [95, 96], [96, 95], [96, 97], [97, 96], [97, 98], [97, 110], [98, 97], [98, 99], [99, 92], [99, 98], [99, 100], [100, 99], [100, 101], [101, 100], [101, 102], [101, 111], [102, 101], [102, 103], [103, 93], [103, 102], [103, 104], [104, 103], [104, 105], [105, 104], [105, 106], [105, 112], [106, 105], [106, 107], [107, 94], [107, 106], [107, 108], [108, 107], [108, 109], [109, 108], [109, 113], [110, 97], [110, 116], [111, 101], [111, 120], [112, 105], [112, 124], [113, 109], [113, 128], [114, 115], [114, 129], [115, 114], [115, 116], [116, 110], [116, 115], [116, 117], [117, 116], [117, 118], [118, 117], [118, 119], [118, 130], [119, 118], [119, 120], [120, 111], [120, 119], [120, 121], [121, 120], [121, 122], [122, 121], [122, 123], [122, 131], [123, 122], [123, 124], [124, 112], [124, 123], [124, 125], [125, 124], [125, 126], [126, 125], [126, 127], [126, 132], [127, 126], [127, 128], [128, 113], [128, 127], [129, 114], [130, 118], [131, 122], [132, 126]]
+INFO:root:good_qubits
+INFO:root:[63, 64, 65, 66, 67, 73, 74, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 92, 93, 94, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 110, 111, 112, 116, 117, 118, 119, 120, 121, 122, 123, 124]
+INFO:root:j2
+INFO:root:1
+INFO:root:j3
+INFO:root:1
+INFO:root:n_swaps
+INFO:root:0
+INFO:root:n_T_step
+INFO:root:4
+INFO:root:is_depth_optimized
+INFO:root:True
+INFO:root:minimize_unique_layers
+INFO:root:True
+INFO:root:swap_back
+INFO:root:True
+INFO:root:single_qubit
+INFO:root:False
+INFO:root:D
+INFO:root:[3]
+INFO:root:continue_exp_idx
+INFO:root:0
+INFO:root:barriers
+INFO:root:True
+INFO:root:reverse_odd_trotter_steps
+INFO:root:False
+INFO:root:single_particle
+INFO:root:False
+INFO:root:fixed_control
+INFO:root:9
+INFO:root:k_particle
+INFO:root:5
+INFO:root:excitations
+INFO:root:[10, 27, 14, 3, 38]
+INFO:root:twirls
+INFO:root:100
+INFO:root:shots
+INFO:root:500
+INFO:root:trex_twirls
+INFO:root:50
+INFO:root:trex_shots
+INFO:root:500
+INFO:root:apply_DD
+INFO:root:True
+INFO:root:dd_sequence
+INFO:root:[]
+INFO:root:scheduling_method
+INFO:root:alap
+INFO:root:learning_samples
+INFO:root:25
+INFO:root:learning_shots
+INFO:root:100
+INFO:root:learning_batch_size
+INFO:root:100
+INFO:root:cycle_depths
+INFO:root:[0, 4, 24, 48]
+INFO:root:learning_experiment_options_dict
+INFO:root:{'layer_pair_depths': [0, 4, 24, 48], 'learning_qubits': [63, 64, 73, 65, 66, 67, 74, 82, 86, 79, 80, 81, 92, 83, 84, 85, 93, 87, 88, 94, 99, 103, 107, 97, 98, 110, 100, 101, 102, 111, 104, 105, 106, 112, 116, 120, 124, 117, 118, 119, 121, 122, 123], 'twirled_qubits': [63, 64, 73, 65, 66, 67, 74, 82, 86, 79, 80, 81, 92, 83, 84, 85, 93, 87, 88, 94, 99, 103, 107, 97, 98, 110, 100, 101, 102, 111, 104, 105, 106, 112, 116, 120, 124, 117, 118, 119, 121, 122, 123], 'randomize_measurement': True, 'randomize_preparation': True, 'max_circuits': 100, 'max_concurrent_jobs': 10, 'interleave_samples': True}
+INFO:root:trex_experiment_options_dict
+INFO:root:{'num_samples': 50}
+INFO:root:noise_scales
+INFO:root:[1, 1.3, 1.6]
+INFO:root:max_job_size
+INFO:root:100
+INFO:root:max_concurrent_jobs
+INFO:root:10
+INFO:root:H_labels
+INFO:root:['IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIXIX', 'IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIXIXI', 'IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIXXIIIII', 'IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIXIXIIIIIIIIII', 'IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIXIIIXIIIIIII', 'IIIIIIIIIIIIIIIIIIIIIIIIIIXIXIIIIIIIIIIIIII', 'IIIIIIIIIIIIIIIIIIIIIIIXXIIIIIIIIIIIIIIIIII', 'IIIIIIIIIIIIIIIIIIIIIIIIIIIXIIIIIIXIIIIIIII', 'IIIIIIIIIIIIIIIIIXIXIIIIIIIIIIIIIIIIIIIIIII', 'IIIXIIIXIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII', 'IIIIIIIIIIIIIIIIIIXIIIXIIIIIIIIIIIIIIIIIIII', 'IIIIIIIIIIIIIXIXIIIIIIIIIIIIIIIIIIIIIIIIIII', 'XIIIIIXIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII', 'IIIIIIIIIIIIIIXIIIIIIXIIIIIIIIIIIIIIIIIIIII', 'IIIIIIIIIXIXIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII', 'IIIIIIIIIIXIIIIIIIIIXIIIIIIIIIIIIIIIIIIIIII', 'IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIXIIIIXII', 'IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIXXIIII', 'IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIXIXIIIIII', 'IIIIIIIIIIIIIIIIIIIIIIXIIIIIIIXIIIIIIIIIIII', 'IIIIIIIIIIIIIIIIIIIIIIIIIIIIXXIIIIIIIIIIIII', 'IIIIIIIIIIIIIIIIIIIIIXIIIIXIIIIIIIIIIIIIIII', 'IIIIIIIIIIIIIIIIIIIIXIIXIIIIIIIIIIIIIIIIIII', 'IIIIIIIIIIIIIIIIIIIIIIIIXXIIIIIIIIIIIIIIIII', 'IIIIIIIIXIIIIIIIIXIIIIIIIIIIIIIIIIIIIIIIIII', 'IIIIXXIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII', 'IIIIIIIIIIIIIIIXXIIIIIIIIIIIIIIIIIIIIIIIIII', 'IIIIIIIXIIIIIXIIIIIIIIIIIIIIIIIIIIIIIIIIIII', 'IXXIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII', 'IIIIIIIIIIIXXIIIIIIIIIIIIIIIIIIIIIIIIIIIIII', 'IIIIIIXIIXIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII', 'IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIXXIII', 'IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIXX', 'IIIIIIIIIIIIIIIIIIIIIIIIIIIIIXIIIIIXIIIIIII', 'IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIXXIIIIIIIIII', 'IIIIIIIIIIIIIIIIIIIIIIIIIXIIIIIIIIXIIIIIIII', 'IIIIIIIIIIIIIIIIIIIIIIIIIIIXXIIIIIIIIIIIIII', 'IIIIIXIIXIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII', 'IIIXXIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII', 'IIIIIIIIIIIIIIIIXIIIIIXIIIIIIIIIIIIIIIIIIII', 'IIIIIIIIIIIIIIIIIIXXIIIIIIIIIIIIIIIIIIIIIII', 'IIXIIIIXIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII', 'XXIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII', 'IIIIIIIIIIIIXIIIIIIIIXIIIIIIIIIIIIIIIIIIIII', 'IIIIIIIIIIIIIIXXIIIIIIIIIIIIIIIIIIIIIIIIIII', 'IIIIIIIIIIXXIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII', 'IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIYIY', 'IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIYIYI', 'IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIYYIIIII', 'IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIYIYIIIIIIIIII', 'IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIYIIIYIIIIIII', 'IIIIIIIIIIIIIIIIIIIIIIIIIIYIYIIIIIIIIIIIIII', 'IIIIIIIIIIIIIIIIIIIIIIIYYIIIIIIIIIIIIIIIIII', 'IIIIIIIIIIIIIIIIIIIIIIIIIIIYIIIIIIYIIIIIIII', 'IIIIIIIIIIIIIIIIIYIYIIIIIIIIIIIIIIIIIIIIIII', 'IIIYIIIYIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII', 'IIIIIIIIIIIIIIIIIIYIIIYIIIIIIIIIIIIIIIIIIII', 'IIIIIIIIIIIIIYIYIIIIIIIIIIIIIIIIIIIIIIIIIII', 'YIIIIIYIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII', 'IIIIIIIIIIIIIIYIIIIIIYIIIIIIIIIIIIIIIIIIIII', 'IIIIIIIIIYIYIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII', 'IIIIIIIIIIYIIIIIIIIIYIIIIIIIIIIIIIIIIIIIIII', 'IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIYIIIIYII', 'IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIYYIIII', 'IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIYIYIIIIII', 'IIIIIIIIIIIIIIIIIIIIIIYIIIIIIIYIIIIIIIIIIII', 'IIIIIIIIIIIIIIIIIIIIIIIIIIIIYYIIIIIIIIIIIII', 'IIIIIIIIIIIIIIIIIIIIIYIIIIYIIIIIIIIIIIIIIII', 'IIIIIIIIIIIIIIIIIIIIYIIYIIIIIIIIIIIIIIIIIII', 'IIIIIIIIIIIIIIIIIIIIIIIIYYIIIIIIIIIIIIIIIII', 'IIIIIIIIYIIIIIIIIYIIIIIIIIIIIIIIIIIIIIIIIII', 'IIIIYYIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII', 'IIIIIIIIIIIIIIIYYIIIIIIIIIIIIIIIIIIIIIIIIII', 'IIIIIIIYIIIIIYIIIIIIIIIIIIIIIIIIIIIIIIIIIII', 'IYYIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII', 'IIIIIIIIIIIYYIIIIIIIIIIIIIIIIIIIIIIIIIIIIII', 'IIIIIIYIIYIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII', 'IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIYYIII', 'IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIYY', 'IIIIIIIIIIIIIIIIIIIIIIIIIIIIIYIIIIIYIIIIIII', 'IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIYYIIIIIIIIII', 'IIIIIIIIIIIIIIIIIIIIIIIIIYIIIIIIIIYIIIIIIII', 'IIIIIIIIIIIIIIIIIIIIIIIIIIIYYIIIIIIIIIIIIII', 'IIIIIYIIYIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII', 'IIIYYIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII', 'IIIIIIIIIIIIIIIIYIIIIIYIIIIIIIIIIIIIIIIIIII', 'IIIIIIIIIIIIIIIIIIYYIIIIIIIIIIIIIIIIIIIIIII', 'IIYIIIIYIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII', 'YYIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII', 'IIIIIIIIIIIIYIIIIIIIIYIIIIIIIIIIIIIIIIIIIII', 'IIIIIIIIIIIIIIYYIIIIIIIIIIIIIIIIIIIIIIIIIII', 'IIIIIIIIIIYYIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII', 'IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIZIZ', 'IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIZIZI', 'IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIZZIIIII', 'IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIZIZIIIIIIIIII', 'IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIZIIIZIIIIIII', 'IIIIIIIIIIIIIIIIIIIIIIIIIIZIZIIIIIIIIIIIIII', 'IIIIIIIIIIIIIIIIIIIIIIIZZIIIIIIIIIIIIIIIIII', 'IIIIIIIIIIIIIIIIIIIIIIIIIIIZIIIIIIZIIIIIIII', 'IIIIIIIIIIIIIIIIIZIZIIIIIIIIIIIIIIIIIIIIIII', 'IIIZIIIZIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII', 'IIIIIIIIIIIIIIIIIIZIIIZIIIIIIIIIIIIIIIIIIII', 'IIIIIIIIIIIIIZIZIIIIIIIIIIIIIIIIIIIIIIIIIII', 'ZIIIIIZIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII', 'IIIIIIIIIIIIIIZIIIIIIZIIIIIIIIIIIIIIIIIIIII', 'IIIIIIIIIZIZIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII', 'IIIIIIIIIIZIIIIIIIIIZIIIIIIIIIIIIIIIIIIIIII', 'IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIZIIIIZII', 'IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIZZIIII', 'IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIZIZIIIIII', 'IIIIIIIIIIIIIIIIIIIIIIZIIIIIIIZIIIIIIIIIIII', 'IIIIIIIIIIIIIIIIIIIIIIIIIIIIZZIIIIIIIIIIIII', 'IIIIIIIIIIIIIIIIIIIIIZIIIIZIIIIIIIIIIIIIIII', 'IIIIIIIIIIIIIIIIIIIIZIIZIIIIIIIIIIIIIIIIIII', 'IIIIIIIIIIIIIIIIIIIIIIIIZZIIIIIIIIIIIIIIIII', 'IIIIIIIIZIIIIIIIIZIIIIIIIIIIIIIIIIIIIIIIIII', 'IIIIZZIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII', 'IIIIIIIIIIIIIIIZZIIIIIIIIIIIIIIIIIIIIIIIIII', 'IIIIIIIZIIIIIZIIIIIIIIIIIIIIIIIIIIIIIIIIIII', 'IZZIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII', 'IIIIIIIIIIIZZIIIIIIIIIIIIIIIIIIIIIIIIIIIIII', 'IIIIIIZIIZIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII', 'IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIZZIII', 'IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIZZ', 'IIIIIIIIIIIIIIIIIIIIIIIIIIIIIZIIIIIZIIIIIII', 'IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIZZIIIIIIIIII', 'IIIIIIIIIIIIIIIIIIIIIIIIIZIIIIIIIIZIIIIIIII', 'IIIIIIIIIIIIIIIIIIIIIIIIIIIZZIIIIIIIIIIIIII', 'IIIIIZIIZIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII', 'IIIZZIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII', 'IIIIIIIIIIIIIIIIZIIIIIZIIIIIIIIIIIIIIIIIIII', 'IIIIIIIIIIIIIIIIIIZZIIIIIIIIIIIIIIIIIIIIIII', 'IIZIIIIZIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII', 'ZZIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII', 'IIIIIIIIIIIIZIIIIIIIIZIIIIIIIIIIIIIIIIIIIII', 'IIIIIIIIIIIIIIZZIIIIIIIIIIIIIIIIIIIIIIIIIII', 'IIIIIIIIIIZZIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII']
+INFO:root:H_coeffs
+INFO:root:[(1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j), (1+0j)]
+INFO:root:interaction_list_all
+INFO:root:[[(0, 2), (3, 1), (5, 6), (10, 12), (7, 11), (14, 16), (19, 18), (8, 15), (23, 25), (39, 35), (20, 24), (27, 29), (42, 36), (21, 28), (31, 33), (22, 32)], [(2, 7), (5, 4), (6, 8), (10, 9), (12, 20), (14, 13), (16, 21), (22, 19), (18, 17), (25, 34), (37, 38), (27, 26), (29, 35), (40, 41), (31, 30), (33, 36)], [(4, 3), (1, 0), (13, 7), (11, 10), (17, 8), (15, 14), (34, 37), (38, 39), (26, 20), (24, 23), (35, 40), (41, 42), (30, 21), (28, 27), (32, 31)]]
+INFO:pec_runtime.experiment.batched_runner:Batched runner (0) generating circuit batch
+INFO:pec_runtime.experiment.batched_runner:Batched runner (0) submitting a job with 100 circuits
+INFO:qiskit.compiler.assembler:Total Assembly Time - 7.07889 (ms)
+INFO:qiskit.providers.direct.direct_job:Unable to create job directory.
+INFO:pec_runtime.experiment.batched_runner:Batched runner (0) submitted job
+INFO:qiskit.providers.direct.direct_job:Unable to create job inputs directory.
+INFO:pec_runtime.experiment.batched_runner:Batched runner (1) generating circuit batch
+INFO:qiskit.providers.direct.direct_job:Unable to simlink gatedef_qiskit.txt to gatedef.txt. File gatedef.txt already exists.
+INFO:qiskit.providers.direct.direct_job:Unable to create qobj directory
+INFO:pec_runtime.experiment.batched_runner:Batched runner (1) submitting a job with 100 circuits
+INFO:qiskit.compiler.assembler:Total Assembly Time - 11.18660 (ms)
+INFO:pec_runtime.experiment.batched_runner:Batched runner (1) submitted job
+INFO:qiskit.providers.direct.direct_job:Unable to create job directory.
+INFO:pec_runtime.experiment.batched_runner:Batched runner (2) generating circuit batch
+INFO:qiskit.providers.direct.direct_job:Unable to create job inputs directory.
+INFO:qiskit.providers.direct.direct_job:Unable to simlink gatedef_qiskit.txt to gatedef.txt. File gatedef.txt already exists.
+INFO:qiskit.providers.direct.direct_job:Unable to create qobj directory
+INFO:pec_runtime.experiment.batched_runner:Batched runner (2) submitting a job with 100 circuits
+INFO:qiskit.compiler.assembler:Total Assembly Time - 7.46322 (ms)
+INFO:qiskit.providers.direct.direct_job:Unable to create job directory.
+INFO:pec_runtime.experiment.batched_runner:Batched runner (2) submitted job
+INFO:qiskit.providers.direct.direct_job:Unable to create job inputs directory.
+INFO:pec_runtime.experiment.batched_runner:Batched runner (3) generating circuit batch
+INFO:qiskit.providers.direct.direct_job:Unable to simlink gatedef_qiskit.txt to gatedef.txt. File gatedef.txt already exists.
+INFO:qiskit.providers.direct.direct_job:Unable to create qobj directory
+INFO:pec_runtime.experiment.batched_runner:Batched runner (3) submitting a job with 100 circuits
+INFO:qiskit.compiler.assembler:Total Assembly Time - 11.25526 (ms)
+INFO:pec_runtime.experiment.batched_runner:Batched runner (3) submitted job
+INFO:qiskit.providers.direct.direct_job:Unable to create job directory.
+INFO:pec_runtime.experiment.batched_runner:Batched runner (4) generating circuit batch
+INFO:qiskit.providers.direct.direct_job:Unable to create job inputs directory.
+INFO:qiskit.providers.direct.direct_job:Unable to simlink gatedef_qiskit.txt to gatedef.txt. File gatedef.txt already exists.
+INFO:qiskit.providers.direct.direct_job:Unable to create qobj directory
+INFO:pec_runtime.experiment.batched_runner:Batched runner (4) submitting a job with 100 circuits
+INFO:qiskit.compiler.assembler:Total Assembly Time - 6.81591 (ms)
+INFO:pec_runtime.experiment.batched_runner:Batched runner (4) submitted job
+INFO:qiskit.providers.direct.direct_job:Unable to create job directory.
+INFO:pec_runtime.experiment.batched_runner:Batched runner (5) generating circuit batch
+INFO:qiskit.providers.direct.direct_job:Unable to create job inputs directory.
+INFO:qiskit.providers.direct.direct_job:Unable to simlink gatedef_qiskit.txt to gatedef.txt. File gatedef.txt already exists.
+INFO:qiskit.providers.direct.direct_job:Unable to create qobj directory
+INFO:pec_runtime.experiment.batched_runner:Batched runner (5) submitting a job with 100 circuits
+INFO:qiskit.compiler.assembler:Total Assembly Time - 10.95486 (ms)
+INFO:pec_runtime.experiment.batched_runner:Batched runner (5) submitted job
+INFO:qiskit.providers.direct.direct_job:Unable to create job directory.
+INFO:pec_runtime.experiment.batched_runner:Batched runner (6) generating circuit batch
+INFO:qiskit.providers.direct.direct_job:Unable to create job inputs directory.
+INFO:qiskit.providers.direct.direct_job:Unable to simlink gatedef_qiskit.txt to gatedef.txt. File gatedef.txt already exists.
+INFO:qiskit.providers.direct.direct_job:Unable to create qobj directory
+INFO:pec_runtime.experiment.batched_runner:Batched runner (6) submitting a job with 100 circuits
+INFO:qiskit.compiler.assembler:Total Assembly Time - 10.86092 (ms)
+INFO:pec_runtime.experiment.batched_runner:Batched runner (6) submitted job
+INFO:qiskit.providers.direct.direct_job:Unable to create job directory.
+INFO:pec_runtime.experiment.batched_runner:Batched runner (7) generating circuit batch
+INFO:qiskit.providers.direct.direct_job:Unable to create job inputs directory.
+INFO:qiskit.providers.direct.direct_job:Unable to simlink gatedef_qiskit.txt to gatedef.txt. File gatedef.txt already exists.
+INFO:qiskit.providers.direct.direct_job:Unable to create qobj directory
+INFO:pec_runtime.experiment.batched_runner:Batched runner (7) submitting a job with 100 circuits
+INFO:qiskit.compiler.assembler:Total Assembly Time - 11.24287 (ms)
+INFO:pec_runtime.experiment.batched_runner:Batched runner (7) submitted job
+INFO:qiskit.providers.direct.direct_job:Unable to create job directory.
+INFO:pec_runtime.experiment.batched_runner:Batched runner (8) generating circuit batch
+INFO:qiskit.providers.direct.direct_job:Unable to create job inputs directory.
+INFO:qiskit.providers.direct.direct_job:Unable to simlink gatedef_qiskit.txt to gatedef.txt. File gatedef.txt already exists.
+INFO:qiskit.providers.direct.direct_job:Unable to create qobj directory
+INFO:pec_runtime.experiment.batched_runner:Batched runner (8) submitting a job with 100 circuits
+INFO:qiskit.compiler.assembler:Total Assembly Time - 10.73766 (ms)
+INFO:pec_runtime.experiment.batched_runner:Batched runner (8) submitted job
+INFO:qiskit.providers.direct.direct_job:Unable to create job directory.
+INFO:pec_runtime.experiment.batched_runner:Batched runner (9) generating circuit batch
+INFO:qiskit.providers.direct.direct_job:Unable to create job inputs directory.
+INFO:qiskit.providers.direct.direct_job:Unable to simlink gatedef_qiskit.txt to gatedef.txt. File gatedef.txt already exists.
+INFO:qiskit.providers.direct.direct_job:Unable to create qobj directory
+INFO:pec_runtime.experiment.batched_runner:Batched runner (9) submitting a job with 100 circuits
+INFO:qiskit.compiler.assembler:Total Assembly Time - 11.15513 (ms)
+INFO:pec_runtime.experiment.batched_runner:Batched runner (9) submitted job
+INFO:qiskit.providers.direct.direct_job:Unable to create job directory.
+INFO:pec_runtime.experiment.batched_runner:Batched runner (10) generating circuit batch
+INFO:qiskit.providers.direct.direct_job:Unable to create job inputs directory.
+INFO:qiskit.providers.direct.direct_job:Unable to simlink gatedef_qiskit.txt to gatedef.txt. File gatedef.txt already exists.
+INFO:qiskit.providers.direct.direct_job:Unable to create qobj directory
+INFO:pec_runtime.experiment.batched_runner:Batched runner (10) waiting for job idx (0)
+INFO:pec_runtime.experiment.batched_runner:Batched runner (10) finished job (1)
+INFO:pec_runtime.experiment.batched_runner:Batched runner (10) submitting a job with 100 circuits
+INFO:qiskit.compiler.assembler:Total Assembly Time - 11.31535 (ms)
+INFO:pec_runtime.experiment.batched_runner:Batched runner (10) submitted job
+INFO:qiskit.providers.direct.direct_job:Unable to create job directory.
+INFO:pec_runtime.experiment.batched_runner:Batched runner (11) generating circuit batch
+INFO:qiskit.providers.direct.direct_job:Unable to create job inputs directory.
+INFO:qiskit.providers.direct.direct_job:Unable to simlink gatedef_qiskit.txt to gatedef.txt. File gatedef.txt already exists.
+INFO:qiskit.providers.direct.direct_job:Unable to create qobj directory
+INFO:pec_runtime.experiment.batched_runner:Batched runner (11) waiting for job idx (1)
+INFO:pec_runtime.experiment.batched_runner:Batched runner (11) finished job (2)
+INFO:pec_runtime.experiment.batched_runner:Batched runner (11) submitting a job with 100 circuits
+INFO:qiskit.compiler.assembler:Total Assembly Time - 10.57506 (ms)
+INFO:pec_runtime.experiment.batched_runner:Batched runner (11) submitted job
+INFO:qiskit.providers.direct.direct_job:Unable to create job directory.
+INFO:pec_runtime.experiment.batched_runner:Batched runner (12) generating circuit batch
+INFO:qiskit.providers.direct.direct_job:Unable to create job inputs directory.
+INFO:qiskit.providers.direct.direct_job:Unable to simlink gatedef_qiskit.txt to gatedef.txt. File gatedef.txt already exists.
+INFO:qiskit.providers.direct.direct_job:Unable to create qobj directory
+INFO:pec_runtime.experiment.batched_runner:Batched runner (12) waiting for job idx (2)
+INFO:pec_runtime.experiment.batched_runner:Batched runner (12) finished job (3)
+INFO:pec_runtime.experiment.batched_runner:Batched runner (12) submitting a job with 100 circuits
+INFO:qiskit.compiler.assembler:Total Assembly Time - 9.10449 (ms)
+INFO:pec_runtime.experiment.batched_runner:Batched runner (12) submitted job
+INFO:qiskit.providers.direct.direct_job:Unable to create job directory.
+INFO:pec_runtime.experiment.batched_runner:Batched runner (13) generating circuit batch
+INFO:qiskit.providers.direct.direct_job:Unable to create job inputs directory.
+INFO:qiskit.providers.direct.direct_job:Unable to simlink gatedef_qiskit.txt to gatedef.txt. File gatedef.txt already exists.
+INFO:qiskit.providers.direct.direct_job:Unable to create qobj directory
+INFO:pec_runtime.experiment.batched_runner:Batched runner (13) waiting for job idx (3)
+INFO:pec_runtime.experiment.batched_runner:Batched runner (13) finished job (4)
+INFO:pec_runtime.experiment.batched_runner:Batched runner (13) submitting a job with 100 circuits
+INFO:qiskit.compiler.assembler:Total Assembly Time - 9.31168 (ms)
+INFO:pec_runtime.experiment.batched_runner:Batched runner (13) submitted job
+INFO:qiskit.providers.direct.direct_job:Unable to create job directory.
+INFO:qiskit.providers.direct.direct_job:Unable to create job inputs directory.
+INFO:qiskit.providers.direct.direct_job:Unable to simlink gatedef_qiskit.txt to gatedef.txt. File gatedef.txt already exists.
+INFO:qiskit.providers.direct.direct_job:Unable to create qobj directory
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.RUNNING (0 seconds)
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.RUNNING (5 seconds)
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.RUNNING (10 seconds)
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.RUNNING (15 seconds)
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.RUNNING (20 seconds)
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.RUNNING (25 seconds)
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.RUNNING (30 seconds)
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.RUNNING (35 seconds)
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.RUNNING (40 seconds)
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.RUNNING (45 seconds)
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.RUNNING (50 seconds)
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.RUNNING (55 seconds)
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.RUNNING (60 seconds)
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.RUNNING (65 seconds)
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.RUNNING (70 seconds)
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.RUNNING (75 seconds)
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.RUNNING (80 seconds)
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.RUNNING (85 seconds)
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.RUNNING (90 seconds)
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.RUNNING (95 seconds)
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.RUNNING (100 seconds)
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.RUNNING (105 seconds)
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.RUNNING (110 seconds)
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.RUNNING (115 seconds)
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.RUNNING (120 seconds)
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.RUNNING (0 seconds)
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.RUNNING (5 seconds)
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.RUNNING (10 seconds)
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.RUNNING (15 seconds)
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.RUNNING (20 seconds)
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.RUNNING (25 seconds)
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.RUNNING (30 seconds)
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.RUNNING (35 seconds)
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.RUNNING (40 seconds)
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.RUNNING (45 seconds)
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.RUNNING (50 seconds)
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.RUNNING (55 seconds)
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.RUNNING (60 seconds)
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.RUNNING (65 seconds)
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.RUNNING (70 seconds)
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.RUNNING (75 seconds)
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.RUNNING (80 seconds)
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.RUNNING (85 seconds)
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.RUNNING (90 seconds)
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.RUNNING (95 seconds)
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.RUNNING (100 seconds)
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.RUNNING (105 seconds)
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.RUNNING (110 seconds)
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.RUNNING (115 seconds)
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.RUNNING (120 seconds)
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.RUNNING (125 seconds)
+INFO:qiskit.compiler.assembler:Total Assembly Time - 5.30744 (ms)
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.INITIALIZING (0 seconds)
+INFO:qiskit.providers.direct.direct_job:Unable to create job directory.
+INFO:qiskit.providers.direct.direct_job:Unable to create job inputs directory.
+INFO:qiskit.providers.direct.direct_job:Unable to simlink gatedef_qiskit.txt to gatedef.txt. File gatedef.txt already exists.
+INFO:qiskit.providers.direct.direct_job:Unable to create qobj directory
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.INITIALIZING (5 seconds)
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.RUNNING (10 seconds)
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.RUNNING (15 seconds)
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.RUNNING (20 seconds)
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.RUNNING (25 seconds)
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.RUNNING (30 seconds)
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.RUNNING (35 seconds)
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.RUNNING (40 seconds)
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.RUNNING (45 seconds)
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.RUNNING (50 seconds)
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.RUNNING (55 seconds)
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.RUNNING (60 seconds)
+DEBUG:qiskit_experiments.framework.experiment_data:Job data added [Job ID: 4a3a2922-08c3-4a29-bf8e-e69028d0fd7c]
+DEBUG:qiskit_experiments.framework.experiment_data:Running analysis callback 'run_analysis' [Experiment ID: aa855170-efc4-49b7-83e8-3c00309f152d][Analysis Callback ID: 1933cadc2f104bc2ad9fc8782b06f1cf]
+DEBUG:qiskit_experiments.framework.experiment_data:Analysis callback finished [Experiment ID: aa855170-efc4-49b7-83e8-3c00309f152d][Analysis Callback ID: 1933cadc2f104bc2ad9fc8782b06f1cf]
+INFO:pec_runtime.experiment.batched_runner:Batched runner (0) generating circuit batch
+INFO:pec_runtime.experiment.batched_runner:Batched runner (0) submitting a job with 100 circuits
+INFO:qiskit.compiler.assembler:Total Assembly Time - 11.16490 (ms)
+INFO:pec_runtime.experiment.batched_runner:Batched runner (0) submitted job
+INFO:qiskit.providers.direct.direct_job:Unable to create job directory.
+INFO:pec_runtime.experiment.batched_runner:Batched runner (1) generating circuit batch
+INFO:qiskit.providers.direct.direct_job:Unable to create job inputs directory.
+INFO:qiskit.providers.direct.direct_job:Unable to simlink gatedef_qiskit.txt to gatedef.txt. File gatedef.txt already exists.
+INFO:qiskit.providers.direct.direct_job:Unable to create qobj directory
+INFO:pec_runtime.experiment.batched_runner:Batched runner (1) submitting a job with 100 circuits
+INFO:qiskit.compiler.assembler:Total Assembly Time - 10.81729 (ms)
+INFO:pec_runtime.experiment.batched_runner:Batched runner (1) submitted job
+INFO:qiskit.providers.direct.direct_job:Unable to create job directory.
+INFO:pec_runtime.experiment.batched_runner:Batched runner (2) generating circuit batch
+INFO:qiskit.providers.direct.direct_job:Unable to create job inputs directory.
+INFO:qiskit.providers.direct.direct_job:Unable to simlink gatedef_qiskit.txt to gatedef.txt. File gatedef.txt already exists.
+INFO:qiskit.providers.direct.direct_job:Unable to create qobj directory
+INFO:pec_runtime.experiment.batched_runner:Batched runner (2) submitting a job with 100 circuits
+INFO:qiskit.compiler.assembler:Total Assembly Time - 10.92649 (ms)
+INFO:pec_runtime.experiment.batched_runner:Batched runner (2) submitted job
+INFO:qiskit.providers.direct.direct_job:Unable to create job directory.
+INFO:pec_runtime.experiment.batched_runner:Batched runner (3) generating circuit batch
+INFO:qiskit.providers.direct.direct_job:Unable to create job inputs directory.
+INFO:qiskit.providers.direct.direct_job:Unable to simlink gatedef_qiskit.txt to gatedef.txt. File gatedef.txt already exists.
+INFO:qiskit.providers.direct.direct_job:Unable to create qobj directory
+INFO:pec_runtime.experiment.batched_runner:Batched runner (3) submitting a job with 100 circuits
+INFO:qiskit.compiler.assembler:Total Assembly Time - 9.21226 (ms)
+INFO:pec_runtime.experiment.batched_runner:Batched runner (3) submitted job
+INFO:qiskit.providers.direct.direct_job:Unable to create job directory.
+INFO:pec_runtime.experiment.batched_runner:Batched runner (4) generating circuit batch
+INFO:qiskit.providers.direct.direct_job:Unable to create job inputs directory.
+INFO:qiskit.providers.direct.direct_job:Unable to simlink gatedef_qiskit.txt to gatedef.txt. File gatedef.txt already exists.
+INFO:qiskit.providers.direct.direct_job:Unable to create qobj directory
+INFO:pec_runtime.experiment.batched_runner:Batched runner (4) submitting a job with 100 circuits
+INFO:qiskit.compiler.assembler:Total Assembly Time - 7.06482 (ms)
+INFO:pec_runtime.experiment.batched_runner:Batched runner (4) submitted job
+INFO:qiskit.providers.direct.direct_job:Unable to create job directory.
+INFO:pec_runtime.experiment.batched_runner:Batched runner (5) generating circuit batch
+INFO:qiskit.providers.direct.direct_job:Unable to create job inputs directory.
+INFO:qiskit.providers.direct.direct_job:Unable to simlink gatedef_qiskit.txt to gatedef.txt. File gatedef.txt already exists.
+INFO:qiskit.providers.direct.direct_job:Unable to create qobj directory
+INFO:pec_runtime.experiment.batched_runner:Batched runner (5) submitting a job with 100 circuits
+INFO:qiskit.compiler.assembler:Total Assembly Time - 10.14519 (ms)
+INFO:pec_runtime.experiment.batched_runner:Batched runner (5) submitted job
+INFO:qiskit.providers.direct.direct_job:Unable to create job directory.
+INFO:pec_runtime.experiment.batched_runner:Batched runner (6) generating circuit batch
+INFO:qiskit.providers.direct.direct_job:Unable to create job inputs directory.
+INFO:qiskit.providers.direct.direct_job:Unable to simlink gatedef_qiskit.txt to gatedef.txt. File gatedef.txt already exists.
+INFO:qiskit.providers.direct.direct_job:Unable to create qobj directory
+INFO:pec_runtime.experiment.batched_runner:Batched runner (6) submitting a job with 100 circuits
+INFO:qiskit.compiler.assembler:Total Assembly Time - 10.36191 (ms)
+INFO:qiskit.providers.direct.direct_job:Unable to create job directory.
+INFO:pec_runtime.experiment.batched_runner:Batched runner (6) submitted job
+INFO:qiskit.providers.direct.direct_job:Unable to create job inputs directory.
+INFO:pec_runtime.experiment.batched_runner:Batched runner (7) generating circuit batch
+INFO:qiskit.providers.direct.direct_job:Unable to simlink gatedef_qiskit.txt to gatedef.txt. File gatedef.txt already exists.
+INFO:qiskit.providers.direct.direct_job:Unable to create qobj directory
+INFO:pec_runtime.experiment.batched_runner:Batched runner (7) submitting a job with 100 circuits
+INFO:qiskit.compiler.assembler:Total Assembly Time - 48.33174 (ms)
+INFO:pec_runtime.experiment.batched_runner:Batched runner (7) submitted job
+INFO:qiskit.providers.direct.direct_job:Unable to create job directory.
+INFO:pec_runtime.experiment.batched_runner:Batched runner (8) generating circuit batch
+INFO:qiskit.providers.direct.direct_job:Unable to create job inputs directory.
+INFO:qiskit.providers.direct.direct_job:Unable to simlink gatedef_qiskit.txt to gatedef.txt. File gatedef.txt already exists.
+INFO:qiskit.providers.direct.direct_job:Unable to create qobj directory
+INFO:pec_runtime.experiment.batched_runner:Batched runner (8) submitting a job with 100 circuits
+INFO:qiskit.compiler.assembler:Total Assembly Time - 10.22196 (ms)
+INFO:pec_runtime.experiment.batched_runner:Batched runner (8) submitted job
+INFO:qiskit.providers.direct.direct_job:Unable to create job directory.
+INFO:pec_runtime.experiment.batched_runner:Batched runner (9) generating circuit batch
+INFO:qiskit.providers.direct.direct_job:Unable to create job inputs directory.
+INFO:qiskit.providers.direct.direct_job:Unable to simlink gatedef_qiskit.txt to gatedef.txt. File gatedef.txt already exists.
+INFO:qiskit.providers.direct.direct_job:Unable to create qobj directory
+INFO:pec_runtime.experiment.batched_runner:Batched runner (9) submitting a job with 100 circuits
+INFO:qiskit.compiler.assembler:Total Assembly Time - 11.29150 (ms)
+INFO:pec_runtime.experiment.batched_runner:Batched runner (9) submitted job
+INFO:qiskit.providers.direct.direct_job:Unable to create job directory.
+INFO:pec_runtime.experiment.batched_runner:Batched runner (10) generating circuit batch
+INFO:qiskit.providers.direct.direct_job:Unable to create job inputs directory.
+INFO:qiskit.providers.direct.direct_job:Unable to simlink gatedef_qiskit.txt to gatedef.txt. File gatedef.txt already exists.
+INFO:qiskit.providers.direct.direct_job:Unable to create qobj directory
+INFO:pec_runtime.experiment.batched_runner:Batched runner (10) waiting for job idx (0)
+INFO:pec_runtime.experiment.batched_runner:Batched runner (10) finished job (1)
+INFO:pec_runtime.experiment.batched_runner:Batched runner (10) submitting a job with 100 circuits
+INFO:qiskit.compiler.assembler:Total Assembly Time - 11.06691 (ms)
+INFO:pec_runtime.experiment.batched_runner:Batched runner (10) submitted job
+INFO:qiskit.providers.direct.direct_job:Unable to create job directory.
+INFO:pec_runtime.experiment.batched_runner:Batched runner (11) generating circuit batch
+INFO:qiskit.providers.direct.direct_job:Unable to create job inputs directory.
+INFO:qiskit.providers.direct.direct_job:Unable to simlink gatedef_qiskit.txt to gatedef.txt. File gatedef.txt already exists.
+INFO:qiskit.providers.direct.direct_job:Unable to create qobj directory
+INFO:pec_runtime.experiment.batched_runner:Batched runner (11) waiting for job idx (1)
+INFO:pec_runtime.experiment.batched_runner:Batched runner (11) finished job (2)
+INFO:pec_runtime.experiment.batched_runner:Batched runner (11) submitting a job with 100 circuits
+INFO:qiskit.compiler.assembler:Total Assembly Time - 10.67805 (ms)
+INFO:pec_runtime.experiment.batched_runner:Batched runner (11) submitted job
+INFO:qiskit.providers.direct.direct_job:Unable to create job directory.
+INFO:pec_runtime.experiment.batched_runner:Batched runner (12) generating circuit batch
+INFO:qiskit.providers.direct.direct_job:Unable to create job inputs directory.
+INFO:qiskit.providers.direct.direct_job:Unable to simlink gatedef_qiskit.txt to gatedef.txt. File gatedef.txt already exists.
+INFO:qiskit.providers.direct.direct_job:Unable to create qobj directory
+INFO:pec_runtime.experiment.batched_runner:Batched runner (12) waiting for job idx (2)
+INFO:pec_runtime.experiment.batched_runner:Batched runner (12) finished job (3)
+INFO:pec_runtime.experiment.batched_runner:Batched runner (12) submitting a job with 100 circuits
+INFO:qiskit.compiler.assembler:Total Assembly Time - 11.15966 (ms)
+INFO:pec_runtime.experiment.batched_runner:Batched runner (12) submitted job
+INFO:qiskit.providers.direct.direct_job:Unable to create job directory.
+INFO:pec_runtime.experiment.batched_runner:Batched runner (13) generating circuit batch
+INFO:qiskit.providers.direct.direct_job:Unable to create job inputs directory.
+INFO:qiskit.providers.direct.direct_job:Unable to simlink gatedef_qiskit.txt to gatedef.txt. File gatedef.txt already exists.
+INFO:qiskit.providers.direct.direct_job:Unable to create qobj directory
+INFO:pec_runtime.experiment.batched_runner:Batched runner (13) waiting for job idx (3)
+INFO:pec_runtime.experiment.batched_runner:Batched runner (13) finished job (4)
+INFO:pec_runtime.experiment.batched_runner:Batched runner (13) submitting a job with 100 circuits
+INFO:qiskit.compiler.assembler:Total Assembly Time - 10.79345 (ms)
+INFO:pec_runtime.experiment.batched_runner:Batched runner (13) submitted job
+INFO:qiskit.providers.direct.direct_job:Unable to create job directory.
+INFO:qiskit.providers.direct.direct_job:Unable to create job inputs directory.
+INFO:qiskit.providers.direct.direct_job:Unable to simlink gatedef_qiskit.txt to gatedef.txt. File gatedef.txt already exists.
+INFO:qiskit.providers.direct.direct_job:Unable to create qobj directory
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.INITIALIZING (0 seconds)
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.INITIALIZING (5 seconds)
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.INITIALIZING (11 seconds)
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.INITIALIZING (16 seconds)
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.RUNNING (21 seconds)
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.RUNNING (26 seconds)
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.RUNNING (31 seconds)
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.RUNNING (36 seconds)
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.RUNNING (41 seconds)
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.RUNNING (46 seconds)
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.RUNNING (51 seconds)
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.RUNNING (56 seconds)
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.RUNNING (61 seconds)
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.RUNNING (66 seconds)
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.RUNNING (71 seconds)
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.RUNNING (76 seconds)
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.RUNNING (81 seconds)
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.RUNNING (86 seconds)
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.RUNNING (91 seconds)
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.RUNNING (96 seconds)
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.RUNNING (101 seconds)
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.RUNNING (106 seconds)
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.RUNNING (111 seconds)
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.RUNNING (116 seconds)
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.RUNNING (121 seconds)
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.RUNNING (126 seconds)
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.RUNNING (131 seconds)
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.RUNNING (136 seconds)
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.RUNNING (141 seconds)
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.RUNNING (146 seconds)
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.RUNNING (151 seconds)
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.RUNNING (156 seconds)
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.RUNNING (161 seconds)
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.RUNNING (166 seconds)
+INFO:qiskit.compiler.assembler:Total Assembly Time - 1.98030 (ms)
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.INITIALIZING (0 seconds)
+INFO:qiskit.providers.direct.direct_job:Unable to create job directory.
+INFO:qiskit.providers.direct.direct_job:Unable to create job inputs directory.
+INFO:qiskit.providers.direct.direct_job:Unable to simlink gatedef_qiskit.txt to gatedef.txt. File gatedef.txt already exists.
+INFO:qiskit.providers.direct.direct_job:Unable to create qobj directory
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.INITIALIZING (5 seconds)
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.RUNNING (10 seconds)
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.RUNNING (15 seconds)
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.RUNNING (20 seconds)
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.RUNNING (25 seconds)
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.RUNNING (30 seconds)
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.RUNNING (35 seconds)
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.RUNNING (40 seconds)
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.RUNNING (45 seconds)
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.RUNNING (50 seconds)
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.RUNNING (55 seconds)
+INFO:qiskit.providers.direct.direct_job:status = JobStatus.RUNNING (60 seconds)
+DEBUG:qiskit_experiments.framework.experiment_data:Job data added [Job ID: 5ac4f8f8-0453-42b5-a258-387b5a490784]
+DEBUG:qiskit_experiments.framework.experiment_data:Running analysis callback 'run_analysis' [Experiment ID: 5bf4e852-782c-4dcc-9779-01c46f7a4709][Analysis Callback ID: d42cbc3541d949c6a04e35066600b517]
+DEBUG:qiskit_experiments.framework.experiment_data:Analysis callback finished [Experiment ID: 5bf4e852-782c-4dcc-9779-01c46f7a4709][Analysis Callback ID: d42cbc3541d949c6a04e35066600b517]
+INFO:pec_runtime.experiment.batched_runner:Batched runner (0) generating circuit batch
+INFO:pec_runtime.experiment.batched_runner:Batched runner (0) submitting a job with 100 circuits
+INFO:qiskit.compiler.assembler:Total Assembly Time - 11.00016 (ms)
+INFO:pec_runtime.experiment.batched_runner:Batched runner (0) submitted job
+INFO:qiskit.providers.direct.direct_job:Unable to create job directory.
+INFO:pec_runtime.experiment.batched_runner:Batched runner (1) generating circuit batch
+INFO:qiskit.providers.direct.direct_job:Unable to create job inputs directory.
+INFO:qiskit.providers.direct.direct_job:Unable to simlink gatedef_qiskit.txt to gatedef.txt. File gatedef.txt already exists.
+INFO:qiskit.providers.direct.direct_job:Unable to create qobj directory
+INFO:pec_runtime.experiment.batched_runner:Batched runner (1) submitting a job with 100 circuits
+INFO:qiskit.compiler.assembler:Total Assembly Time - 11.20830 (ms)
+INFO:pec_runtime.experiment.batched_runner:Batched runner (1) submitted job
+INFO:qiskit.providers.direct.direct_job:Unable to create job directory.
+INFO:pec_runtime.experiment.batched_runner:Batched runner (2) generating circuit batch
+INFO:qiskit.providers.direct.direct_job:Unable to create job inputs directory.
+INFO:qiskit.providers.direct.direct_job:Unable to simlink gatedef_qiskit.txt to gatedef.txt. File gatedef.txt already exists.
+INFO:qiskit.providers.direct.direct_job:Unable to create qobj directory
+INFO:pec_runtime.experiment.batched_runner:Batched runner (2) submitting a job with 100 circuits
+INFO:qiskit.compiler.assembler:Total Assembly Time - 11.47985 (ms)
+INFO:pec_runtime.experiment.batched_runner:Batched runner (2) submitted job
+INFO:qiskit.providers.direct.direct_job:Unable to create job directory.
+INFO:pec_runtime.experiment.batched_runner:Batched runner (3) generating circuit batch
+INFO:qiskit.providers.direct.direct_job:Unable to create job inputs directory.
+INFO:qiskit.providers.direct.direct_job:Unable to simlink gatedef_qiskit.txt to gatedef.txt. File gatedef.txt already exists.
+INFO:qiskit.providers.direct.direct_job:Unable to create qobj directory
+INFO:pec_runtime.experiment.batched_runner:Batched runner (3) submitting a job with 100 circuits
+INFO:qiskit.compiler.assembler:Total Assembly Time - 11.18016 (ms)
+INFO:pec_runtime.experiment.batched_runner:Batched runner (3) submitted job
+INFO:qiskit.providers.direct.direct_job:Unable to create job directory.
+INFO:pec_runtime.experiment.batched_runner:Batched runner (4) generating circuit batch
+INFO:qiskit.providers.direct.direct_job:Unable to create job inputs directory.
+INFO:qiskit.providers.direct.direct_job:Unable to simlink gatedef_qiskit.txt to gatedef.txt. File gatedef.txt already exists.
+INFO:qiskit.providers.direct.direct_job:Unable to create qobj directory
+INFO:pec_runtime.experiment.batched_runner:Batched runner (4) submitting a job with 100 circuits
+INFO:qiskit.compiler.assembler:Total Assembly Time - 9.93133 (ms)
+INFO:pec_runtime.experiment.batched_runner:Batched runner (4) submitted job
+INFO:qiskit.providers.direct.direct_job:Unable to create job directory.
+INFO:pec_runtime.experiment.batched_runner:Batched runner (5) generating circuit batch
+INFO:qiskit.providers.direct.direct_job:Unable to create job inputs directory.
+INFO:qiskit.providers.direct.direct_job:Unable to simlink gatedef_qiskit.txt to gatedef.txt. File gatedef.txt already exists.
+INFO:qiskit.providers.direct.direct_job:Unable to create qobj directory
+INFO:pec_runtime.experiment.batched_runner:Batched runner (5) submitting a job with 100 circuits
+INFO:qiskit.compiler.assembler:Total Assembly Time - 12.67886 (ms)
+INFO:pec_runtime.experiment.batched_runner:Batched runner (5) submitted job
+INFO:qiskit.providers.direct.direct_job:Unable to create job directory.
+INFO:pec_runtime.experiment.batched_runner:Batched runner (6) generating circuit batch
+INFO:qiskit.providers.direct.direct_job:Unable to create job inputs directory.
+INFO:qiskit.providers.direct.direct_job:Unable to simlink gatedef_qiskit.txt to gatedef.txt. File gatedef.txt already exists.
+INFO:qiskit.providers.direct.direct_job:Unable to create qobj directory
+INFO:pec_runtime.experiment.batched_runner:Batched runner (6) submitting a job with 100 circuits
+INFO:qiskit.compiler.assembler:Total Assembly Time - 8.85415 (ms)
+INFO:pec_runtime.experiment.batched_runner:Batched runner (6) submitted job
+INFO:qiskit.providers.direct.direct_job:Unable to create job directory.
+INFO:pec_runtime.experiment.batched_runner:Batched runner (7) generating circuit batch
+INFO:qiskit.providers.direct.direct_job:Unable to create job inputs directory.
+INFO:qiskit.providers.direct.direct_job:Unable to simlink gatedef_qiskit.txt to gatedef.txt. File gatedef.txt already exists.
+INFO:qiskit.providers.direct.direct_job:Unable to create qobj directory
+INFO:pec_runtime.experiment.batched_runner:Batched runner (7) submitting a job with 100 circuits
+INFO:qiskit.compiler.assembler:Total Assembly Time - 11.04498 (ms)
+INFO:pec_runtime.experiment.batched_runner:Batched runner (7) submitted job
+INFO:qiskit.providers.direct.direct_job:Unable to create job directory.
+INFO:pec_runtime.experiment.batched_runner:Batched runner (8) generating circuit batch
+INFO:qiskit.providers.direct.direct_job:Unable to create job inputs directory.
+INFO:qiskit.providers.direct.direct_job:Unable to simlink gatedef_qiskit.txt to gatedef.txt. File gatedef.txt already exists.
+INFO:qiskit.providers.direct.direct_job:Unable to create qobj directory
+INFO:pec_runtime.experiment.batched_runner:Batched runner (8) submitting a job with 100 circuits
+INFO:qiskit.compiler.assembler:Total Assembly Time - 12.17937 (ms)
+INFO:pec_runtime.experiment.batched_runner:Batched runner (8) submitted job
+INFO:qiskit.providers.direct.direct_job:Unable to create job directory.
+INFO:pec_runtime.experiment.batched_runner:Batched runner (9) generating circuit batch
+INFO:qiskit.providers.direct.direct_job:Unable to create job inputs directory.
+INFO:qiskit.providers.direct.direct_job:Unable to simlink gatedef_qiskit.txt to gatedef.txt. File gatedef.txt already exists.
+INFO:qiskit.providers.direct.direct_job:Unable to create qobj directory
+INFO:pec_runtime.experiment.batched_runner:Batched runner (9) submitting a job with 100 circuits
+INFO:qiskit.compiler.assembler:Total Assembly Time - 10.50472 (ms)
+INFO:pec_runtime.experiment.batched_runner:Batched runner (9) submitted job
+INFO:qiskit.providers.direct.direct_job:Unable to create job directory.
+INFO:pec_runtime.experiment.batched_runner:Batched runner (10) generating circuit batch
+INFO:qiskit.providers.direct.direct_job:Unable to create job inputs directory.
+INFO:qiskit.providers.direct.direct_job:Unable to simlink gatedef_qiskit.txt to gatedef.txt. File gatedef.txt already exists.
+INFO:qiskit.providers.direct.direct_job:Unable to create qobj directory
+INFO:pec_runtime.experiment.batched_runner:Batched runner (10) waiting for job idx (0)
+INFO:pec_runtime.experiment.batched_runner:Batched runner (10) finished job (1)
+INFO:pec_runtime.experiment.batched_runner:Batched runner (10) submitting a job with 100 circuits
+INFO:qiskit.compiler.assembler:Total Assembly Time - 8.94332 (ms)
+INFO:pec_runtime.experiment.batched_runner:Batched runner (10) submitted job
+INFO:qiskit.providers.direct.direct_job:Unable to create job directory.
+INFO:pec_runtime.experiment.batched_runner:Batched runner (11) generating circuit batch
+INFO:qiskit.providers.direct.direct_job:Unable to create job inputs directory.
+INFO:qiskit.providers.direct.direct_job:Unable to simlink gatedef_qiskit.txt to gatedef.txt. File gatedef.txt already exists.
+INFO:qiskit.providers.direct.direct_job:Unable to create qobj directory
+INFO:pec_runtime.experiment.batched_runner:Batched runner (11) waiting for job idx (1)
+INFO:pec_runtime.experiment.batched_runner:Batched runner (11) finished job (2)
+INFO:pec_runtime.experiment.batched_runner:Batched runner (11) submitting a job with 100 circuits
+INFO:qiskit.compiler.assembler:Total Assembly Time - 10.88476 (ms)
+INFO:pec_runtime.experiment.batched_runner:Batched runner (11) submitted job
+INFO:qiskit.providers.direct.direct_job:Unable to create job directory.
+INFO:pec_runtime.experiment.batched_runner:Batched runner (12) generating circuit batch
+INFO:qiskit.providers.direct.direct_job:Unable to create job inputs directory.
+INFO:qiskit.providers.direct.direct_job:Unable to simlink gatedef_qiskit.txt to gatedef.txt. File gatedef.txt already exists.
+INFO:qiskit.providers.direct.direct_job:Unable to create qobj directory
+INFO:pec_runtime.experiment.batched_runner:Batched runner (12) waiting for job idx (2)
+INFO:pec_runtime.experiment.batched_runner:Batched runner (12) finished job (3)
+INFO:pec_runtime.experiment.batched_runner:Batched runner (12) submitting a job with 100 circuits
+INFO:qiskit.compiler.assembler:Total Assembly Time - 10.04076 (ms)
