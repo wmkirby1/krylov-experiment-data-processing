@@ -73,7 +73,7 @@ dimn_scaling = scaling of threshold with dimension, given as a power of the dime
 
 '''
 
-def optimize_threshold(D, H_est, S_est, energy_lower, init_threshold=1e-8, fit_tol=0.1, threshold_tol_ratio=0.1, skip_D=0, dimn_scaling=0, return_vecs=False):
+def optimize_threshold( D, H_est, S_est, energy_lower, init_threshold=1e-8, fit_tol=0.5, threshold_tol_ratio=0.1, skip_D=0, dimn_scaling=1, return_vecs=False):
 
     init_energy = np.real(H_est[0,0])
     f = lambda x, a, b: (init_energy-a)*np.exp(-b*(x-1)) + a
